@@ -11,9 +11,21 @@ In dit document vertel ik jou welke gegevens er worden verzameld en waarom.
 
 Gekke Groninger heeft niet de bedoeling om massaal veel informatie te verzamelen over bezoekers en lezers, maar wie een blog of website bijhoudt verzamelt stiekem toch een boel informatie.
 
-## Contactgegevens:
+# Op welke servers geldt deze privacy policy?
 
-email[at]marcackermann.nl
+Deze privacy policy geldt voor alle online servers van Gekke Groninger. En dat is:
+
+* GekkeGroninger.com
+* GekkeBlog.nl
+* Gekke.Dev (En alle parked domains)
+* De Discord server van Gekke Groninger
+
+# Contactgegevens:
+
+* email: post[at]gekke.dev
+* Via tickets op mijn discord server.
+
+# Welke diensten kunnen mijn gegevens inzien?
 
 ## Cloudflare.com
 
