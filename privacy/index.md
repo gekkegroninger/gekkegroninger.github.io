@@ -27,6 +27,11 @@ Deze privacy policy geldt voor alle online servers van Gekke Groninger. En dat i
 
 # Welke diensten kunnen mijn gegevens inzien?
 
+## Kaashosting
+
+De website's worden gehost op Kaashosting. Zij kunnen bepaalde gegevens inzien en bewaren. Je moet dan vooral denken aan IP-adressen en je suref gedrag en nog wat meer.
+https://cdn.kaashosting.nl/files/privacypolicy.pdf
+
 ## Cloudflare.com
 
 Ter beschreming van de website maak ik gebruik van Cloudflare. Ook zij kunnen bepaalde gegevens bewaren. Je moet dan vooral denken aan IP-adressen en je surf gedrag en nog wat meer.
@@ -34,18 +39,18 @@ https://www.cloudflare.com/trust-hub/gdpr
 
 ## Github.com
 
-Ik gebruik diensten van Github om de website te updated. Ook zij kunnen bepaalde gegevens bewaren. Je moet dan vooral denken aan IP-adresses en je surf gedrag en nog wat meer.
+Ik gebruik diensten van Github om de website te updated en ook worden er enkele pagina's gehost. Ook zij kunnen bepaalde gegevens bewaren. Je moet dan vooral denken aan IP-adresses en je surf gedrag en nog wat meer.
 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
-## Flickr.com
+## Contabo
 
-Al mijn foto's staan op Flickr.com een sociaal media platform speciaal voor foto's. Omdat ik veel link naar deze foto's en deze foto's include in mijn berichten kunnen ok zij informtaie zoals IP-adressen en je surf gedrag op slaan.
-https://www.flickr.com/help/privacy
+Ik gebruik object storage van Contabo om grote bestanden te delen. Ook zij kunnen bepaalde gegevens bewaren. Je moet vooral denken aan IP-adressen en je surf gedrag.
+https://contabo.com/en/legal/privacy/
 
-## Wordpress.Com
+## Fontawesome
 
-De website worden gehost op Wordpress.com. Ook zij kunnen bepaalde gegevens bewaren. Je moet dan vooral denken aan IP-adressen en wat meer.
-https://automattic.com/privacy-notice/
+De pictogrammen die je ziet haal ik van Fontawesome. Ook zij kunnen bepaalde gegevens bewaren zoals je ip-adres en welke pictogrammanen je ziet.
+https://fontawesome.com/privacy
 
 ## Google Analytics
 
