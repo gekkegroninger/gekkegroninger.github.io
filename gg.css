@@ -1,0 +1,108 @@
+@font-face {
+    src: url('NanumPenScript-Regular.ttf');
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    src: url('SourceCodePro-Regular.ttf');
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 120%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight:700;
+  }
+  
+  A:link {
+    text-decoration: none;
+  }
+  
+  A:hover {
+    text-decoration: none;
+    color:yellowgreen !important;
+  }
+  
+  blockquote {
+    border-left:1px solid #e5e5e5;
+    margin:0;
+    padding:0 0 0 20px;
+    font-style:italic;
+  }
+  
+  code, pre {
+    font-family: "Source Code Pro", monospace;
+    color:#ff0000;
+  }
+  
+  pre {
+    padding:8px 15px;
+    border-radius:5px;
+    border:1px solid #ff0000;
+    overflow-x: auto;
+  }
+  
+  table {
+    width:100%;
+    border-collapse:collapse;
+  }
+  
+  th, td {
+    text-align:left;
+    padding:5px 10px;
+  }
+  
+  dt {
+    font-weight:500;
+  }
+  
+  strong {
+    font-weight:900;
+  }
+  
+  small {
+    font-size:11px;
+  }
+  
+  hr {
+    border:0;
+    height:1px;
+    margin:0 0 20px;
+  }
+
+  .gg-bg {
+    background-color: #000 !important;
+    color: #fff !important;
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('bg.jpg');
+  }
+  
+  .navbar-brand {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight:900 !important;
+  }
+  
+  .gg-dropdown:hover {
+    background-color:#0d6efd !important;
+  }
