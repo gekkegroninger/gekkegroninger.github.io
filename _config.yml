@@ -4,11 +4,10 @@ url: "https://docs.gekkegroninger.com"
 title: "Gekke Groninger"
 description: "De docs van Gekke Groninger"
 keep_files: [.git, README.md, .gitignore]
-remote_theme: pages-themes/minimal@v0.2.0
-show_downloads: false
-google_analytics: "soon"
+remote_theme: gekkegroninger/gekkegroninger.github.io
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-feed
