@@ -11,6 +11,7 @@ year: 2025
 keep_files: [.git, README.md, .gitignore]
 show_excerpts: true
 permalink: /:categories/:title:output_ext
+remote_theme: gekkegroninger/gekkegroninger.github.io
 
 plugins:
   - jekyll-sitemap
