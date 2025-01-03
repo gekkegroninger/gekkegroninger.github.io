@@ -70,6 +70,10 @@
           <p class="lead">Je kwam op mijn blog terecht ik ben Marc ook wel Gekke Groninger genoemd door vrienden.</p>
           <p class="lead">Blijf en browse rond als je geïnteresseerd in tech, blogging, games, photo's & trains</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            {% for social in site.data.socials %}
+          <a href="{{ social.link }}" class="btn btn-primary btn-lg px-4 me-md-2">{{ social.icon
+            }} {{ social.name }}</a>
+          {% endfor %}
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
           </div>
