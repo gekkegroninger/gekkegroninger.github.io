@@ -3,4 +3,6 @@ layout: home
 title: Welcome
 ---
 
-De persoonlijke website van Marc ook wel Gekke Groninger genoemd.
+{% for pg in site.pages %}
+<a href="{{ pg.url }}" class="btn btn-primary px-4 me-md-2 rounded-pill">{{ pg.title }}</a>
+{% endfor %}
