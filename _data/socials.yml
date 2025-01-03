@@ -13,9 +13,6 @@
   - name: Facebook
     link: https://www.facebook.com/profile.php?id=61564653386900
     icon: <i class="fa-brands fa-facebook-f"></i>
-  - name: IMDb
-    link: https://www.imdb.com/user/ur193954460/?ref_=ext_shr_lnk
-    icon: <i class="fa-brands fa-imdb"></i>
   - name: Discord
     link: https://mee6.xyz/i/tv3EF2CYCs
     icon: <i class="fa-brands fa-discord"></i>
