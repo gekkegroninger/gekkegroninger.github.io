@@ -15,6 +15,7 @@ Om de discord server netjes en voor ieder plezierig te houden effe wat regeltjes
 
 Je kan via de onderstaande manieren contact leggen met een lead:
 
-* Via email: gekkegroninger@gmail.com
+* Via email: gekkegroninger[at]gmail.com
 * Via ticket: <https://mee6.xyz/i/tv3EF2CYCs>
-* Via Github: https://github.com/gekkegroninger/gekkegroninger.github.io/issues/new
+* Via Github: <https://github.com/gekkegroninger/gekkegroninger.github.io/issues/new>
+
