@@ -1,8 +1,9 @@
 ---
 layout: base
-title: 📜 Discord Regels
+title: 📜 Terms of Service
 ---
 
+Tof dat je de weg naar deze community hebt gevondon.
 Om de discord server netjes en voor ieder plezierig te houden effe wat regeltjes.
 
 ## Voordat je verder gaat
@@ -21,6 +22,7 @@ Je kan via de onderstaande manieren contact leggen met een lead:
 
 ## De discord regels
 
-1. Je dient aan de Nederlandse wetgeving te houden.
-Perm ban
+### 1. Schelden & R
 2. Je dient aan de Terms of Service te houden van Discord. [TERMS EN SERVICE](https://discord.com/terms)
+3. Schelden met hedendaagse ziektes en racistische opmerkingen is niet toegestaan.
+4. Het is niet toegestaan video's, streams, projecten etc. te promoten.
