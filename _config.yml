@@ -2,17 +2,13 @@ url: "https://docs.gekkegroninger.com"
 # De url van de site
 
 title: "Gekke Groninger"
-# De title van de site
-
-description: "The Crazy Theme"
-# De description van de site
-
-year: 2025
+description: "De docs van Gekke Groninger"
 keep_files: [.git, README.md, .gitignore]
-show_excerpts: true
-permalink: /:categories/:title:output_ext
-remote_theme: gekkegroninger/gekkegroninger.github.io
+remote_theme: pages-themes/minimal@v0.2.0
+show_downloads: false
+google_analytics: "soon"
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme

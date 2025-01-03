@@ -1,9 +1,0 @@
-  - name: Home
-    link: /
-    icon: <i class="fa-solid fa-globe"></i>
-  - name: Archief
-    link: /posts/
-    icon: <i class="fa-solid fa-box-archive"></i>
-  - name: About me
-    link: /aboutme/
-    icon: <i class="fa-regular fa-user"></i>
