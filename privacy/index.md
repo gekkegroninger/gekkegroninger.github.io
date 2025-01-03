@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: ✏️ Gekke Groninger en jouw privacy
 show: oke
 ---
