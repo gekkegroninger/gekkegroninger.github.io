@@ -1,9 +1,9 @@
   - name: Home
-    link: /
+    link: https://gekkegroninger.com
     icon: <i class="fa-solid fa-globe"></i>
-  - name: Archief
-    link: /posts/
-    icon: <i class="fa-solid fa-box-archive"></i>
+  - name: Contact
+    link: https://www.gekkegroninger.com/p/contact.html
+    icon: <i class="fa-solid fa-envelope"></i>
   - name: About me
-    link: /aboutme/
+    link: https://www.gekkegroninger.com/p/about-me.html
     icon: <i class="fa-regular fa-user"></i>
