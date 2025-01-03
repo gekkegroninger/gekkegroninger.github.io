@@ -1,68 +1,101 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}"  data-bs-theme="auto">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/c38da0f59c.js" crossorigin="anonymous"></script>
+  {% feed_meta %}
+  {% seo %}
+  <link href="{{ '/assets/css/bootstrap.min.css' | absolute_url }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/marc.css" | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ '/android-chrome-192x192.png' | absolute_url }}" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{ '/android-chrome-512x512.png' | absolute_url }}" sizes="512x512">
+  <link rel="manifest" href="/site.webmanifest">
+  {% include custom-head.html %}
+</head>
 
-<div class="container-fluid bg-body-secondary">
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="{{ '/assets/images/marc.png' | absolute_url }}" class="rounded-pill d-block mx-lg-auto img-fluid" alt="{{ site.title | default: site.github.repository_name }}" width="200" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">👋 Moi eem</h1>
-        <p class="lead">Op mijn nederige verblijfplaats.</p>
-        <p class="lead">Je kwam op mijn blog terecht ik ben Marc ook wel Gekke Groninger genoemd door vrienden.</p>
-        <p class="lead">Blijf en browse rond als je geïnteresseerd in tech, blogging, games, photo's & trains</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <div class="navbar-brand title">
+          <a class="navbar-brand" href="{{ '/' | absolute_url }}"><img src="{{ '/assets/images/marc.png' | absolute_url }}"
+            alt="{{ page.title }} {{ site.title }}" style="width:40px;" class="rounded-pill" title="{{ site.title }}"></a><a href="{{ '/' | absolute_url }}"><strong class="finger-paint-regular">{{ site.title | default: site.github.repository_name }}</strong></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              {% for nav in site.data.navigation %}
+              <li class="nav-item"><a href="{{ nav.link }}" class="nav-link">{{ nav.icon }} {{ nav.name }}</a></li>
+              {% endfor %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-share-from-square"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    {% for social in site.data.socials %}
+          <a href="{{ social.link }}" class="dropdown-item">{{ social.icon
+            }} {{ social.name }}</a>
+          {% endfor %}
+                  </ul>
+              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                          aria-expanded="false"  aria-label="Toggle theme (auto)"><i class="fa-regular fa-sun"></i></a>
+                      <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" href="#" data-bs-theme-value="light" aria-pressed="false"><i class="fa-solid fa-sun"></i> Light</a></li>
+                          <li><a class="dropdown-item" href="#" data-bs-theme-value="dark" aria-pressed="false"><i class="fa-solid fa-moon"></i> Dark</a></li>
+                          <li><a class="dropdown-item" href="#" data-bs-theme-value="auto" aria-pressed="true"><i class="fa-solid fa-wand-magic-sparkles"></i> Auto</a></li>
+                      </ul>
+              </li>
+            </ul>
         </div>
-      </div>
     </div>
-  </div>
-</div>
+  </nav>
 
-<main>
-
-  <div class="album py-5">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    {% assign posts = site.posts %}
-
-  {%- if posts.size > 0 -%}
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts limit:9 -%}
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="{{ post.tumbnail | default: " /assets/images/wall-408147.jpg" }}" alt="{{ post.title | escape }}"
-            style="width:100%;height:225px" class="card-img-top">
-            <div class="card-body">
-              <h3 class="card-title">{{ post.title | escape }}</h3>
-              <p class="card-text">{{ post.excerpt | markdownify | truncatewords: 20 }}</p>
-              <div class="clear-fix">
-                <span class="floar-end"><a href="{{ post.url | absolute_url }}"><small class="text-body-secondary">Lees meer <i class="fa-solid fa-angles-right"></i></small></a></span>
-              </div>
-            </div>
+  <div class="container-fluid bg-body-secondary">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="{{ '/assets/images/marc.png' | absolute_url }}" class="rounded-pill d-block mx-lg-auto img-fluid" alt="{{ site.title | default: site.github.repository_name }}" width="200" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">👋 Moi eem</h1>
+          <p class="lead">Op mijn nederige verblijfplaats.</p>
+          <p class="lead">Je kwam op mijn blog terecht ik ben Marc ook wel Gekke Groninger genoemd door vrienden.</p>
+          <p class="lead">Blijf en browse rond als je geïnteresseerd in tech, blogging, games, photo's & trains</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
           </div>
         </div>
-        {%- endfor -%}
-
-        {%- endif -%}
-
       </div>
-      <nav class="blog-pagination mt-5" aria-label="Pagination">
-        {% if paginator.total_pages > 1 %}
-        {% if paginator.previous_page %}
-        <a class="btn btn-outline-primary rounded-pill" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a>
-        {% endif %}
-        {% if paginator.next_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
-        {% endif %}
-        {% endif %}
-      </nav>
     </div>
   </div>
+    
+  <main class="container mt-5 p-5" style="max-width:960px;">
+
+    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">{{ page.title }}</h1>
+  
+    {{content}}
 
 </main>
+
+    <!-- Footer -->
+    <footer class="container text-center p-3 clear-fix mt-5">
+      <p>&copy; 2000 - {{ site.year }} <a href="{{ '/' | absolute_url }}">Marc Ackermann</a>, alle rechten
+        voorbehouden.</a><br />
+        <small><a href="{{ '/disclamer/' | absolute_url }}">Disclamer</a> - <a href="{{ '/privacy/' | absolute_url }}">Privacy</a></p>
+    </footer>
+
+  </div>
+  <script type="module" src="{{ '/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>
+  <script type="module" src="{{ '/assets/js/color-modes.js' | absolute_url }}"></script>
+</body>
+
+</html>

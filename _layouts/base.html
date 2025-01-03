@@ -70,30 +70,10 @@
     <footer class="container text-center p-3 clear-fix mt-5">
       <p>&copy; 2000 - {{ site.year }} <a href="{{ '/' | absolute_url }}">Marc Ackermann</a>, alle rechten
         voorbehouden.</a><br />
-        <small><a href="{{ '/disclamer/' | absolute_url }}">Disclamer</a> - <a href="{{ '/privacy/' | absolute_url }}">Privacy</a><br />
-          Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> & hosted on: <a
-            href="https://github.com" target="_blank">github</a>.</small></p>
+        <small><a href="{{ '/disclamer/' | absolute_url }}">Disclamer</a> - <a href="{{ '/privacy/' | absolute_url }}">Privacy</a></p>
     </footer>
 
   </div>
-
-  <script>
-    // Automatic Slideshow - change image every 4 seconds
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 4000);    
-    }
-    </script>
   <script type="module" src="{{ '/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>
   <script type="module" src="{{ '/assets/js/color-modes.js' | absolute_url }}"></script>
 </body>
