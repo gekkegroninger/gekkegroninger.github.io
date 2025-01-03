@@ -1,6 +1,7 @@
 ---
 layout: base
 title: 📜 Discord regels
+show: oke
 ---
 
 Tof dat je de weg naar deze community hebt gevondon.
