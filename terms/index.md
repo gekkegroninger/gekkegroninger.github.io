@@ -6,6 +6,19 @@ title: 📜 Terms of Service
 Tof dat je de weg naar deze community hebt gevondon.
 Om de discord server netjes en voor ieder plezierig te houden effe wat regeltjes.
 
+## 1. Wees vriendelijk tegen anderen. ❤️
+1.1 Geen discriminerende-, racistische-, seksistische- of andere haatdragende opmerkingen.
+1.2 Praat ruzies uit in DM's 
+1.3 Doe je niet voor als iemand anders, vooral niet als stafflid
+1.4 Niet spammen
+1.5 Geen NSFW content
+## 2. Geen vraag naar of aanbod van betaalde diensten
+2.1 Geen reclame in deze server of via DM's
+3) DM geen mensen zonder van tevoren te vragen of dit oké is
+4) Stel direct je vraag.
+4.1 Het is niet nodig om te vragen of er iemand online is om je te helpen. Iemand zal je vanzelf helpen.
+5) Ping geen individuele KaasHosting teamleden, leden van het community team of partners.
+
 ## Voordat je verder gaat
 
 * Zorg dat je deze regels hebt gelezen.
