@@ -1,6 +1,6 @@
 ---
 layout: base
-title: 📜 Terms of Service
+title: 📜 Discord regels
 ---
 
 Tof dat je de weg naar deze community hebt gevondon.
