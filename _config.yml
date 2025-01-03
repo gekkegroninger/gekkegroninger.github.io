@@ -1,0 +1,17 @@
+url: "https://gekkegroninger.github.io"
+# De url van de site
+
+title: "Gekke Groninger"
+# De title van de site
+
+description: "The Crazy Theme"
+# De description van de site
+
+year: 2025
+keep_files: [.git, README.md, .gitignore]
+show_excerpts: true
+permalink: /:categories/:title:output_ext
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
